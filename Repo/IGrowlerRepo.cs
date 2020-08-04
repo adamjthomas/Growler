@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Growler.Models;
+using System.Collections.Generic;
 
 namespace Growler.Repo
 {

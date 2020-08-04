@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Growler.Models;
+using System.Collections.Generic;
 
 namespace Growler.Repo
 {
@@ -77,7 +77,7 @@ namespace Growler.Repo
 
                 new Brew {
                     Id = 3,
-                    Name = "Levis's Brew",
+                    Name = "Levi's Brew",
                     Category = new Category
                     {
                         Id = "1",
