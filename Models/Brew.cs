@@ -6,6 +6,5 @@ namespace Growler.Models
         public string Name { get; set; }
         public Category Category { get; set; }
         public Style Style { get; set; }
-        public VitalStatistics VitalStatistics { get; set; }
     }
 }

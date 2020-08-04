@@ -17,7 +17,7 @@ namespace Growler.Repo
                     {
                         Id = "1",
                         Name = "Standard American Beer",
-                        Introduction = "Introduction",
+                        Introduction = "Introduction"
                     },
                     Style = new Style
                     {
@@ -31,9 +31,6 @@ namespace Growler.Repo
                         Comments = "",
                         History = "",
                         CharacteristicIngredients = "",
-                    },
-                    VitalStatistics = new VitalStatistics
-                    {
                         OG = "",
                         IBUs = "",
                         FG = "",
@@ -64,9 +61,6 @@ namespace Growler.Repo
                         Comments = "",
                         History = "",
                         CharacteristicIngredients = "",
-                    },
-                    VitalStatistics = new VitalStatistics
-                    {
                         OG = "",
                         IBUs = "",
                         FG = "",
@@ -82,7 +76,7 @@ namespace Growler.Repo
                     {
                         Id = "1",
                         Name = "Standard American Beer",
-                        Introduction = "Introduction",
+                        Introduction = "Introduction"
                     },
                     Style = new Style
                     {
@@ -96,9 +90,6 @@ namespace Growler.Repo
                         Comments = "",
                         History = "",
                         CharacteristicIngredients = "",
-                    },
-                    VitalStatistics = new VitalStatistics
-                    {
                         OG = "",
                         IBUs = "",
                         FG = "",
@@ -121,7 +112,7 @@ namespace Growler.Repo
                 {
                     Id = "1",
                     Name = "Standard American Beer",
-                    Introduction = "Something",
+                    Introduction = "Something"
                 },
                 Style = new Style
                 {
@@ -135,9 +126,6 @@ namespace Growler.Repo
                     Comments = "",
                     History = "",
                     CharacteristicIngredients = "",
-                },
-                VitalStatistics = new VitalStatistics
-                {
                     OG = "",
                     IBUs = "",
                     FG = "",
