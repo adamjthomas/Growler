@@ -21,5 +21,14 @@ Found a bug? If your issue is not addressed yet, [please open a new issue](https
 - [KeyBase](https://keybase.io/adamjthomas)
 - [LinkedIn](https://linkedin.com/in/adamjthomas)
 
+## Big Thank Yous!
+**Eric Perez**
+- [GitHub](https://github.com/epdsn)
+- [Website](http://ericperezdev.com/)
+
+**Les Jackson**
+- [GitHub](https://github.com/binarythistle)
+- [YouTube](https://www.youtube.com/channel/UCIMRGVXufHT69s1uaHHYJIA)
+
 ## Disclaimer
 This project is NOT affiliated with, funded, or in any way associated with https://www.bjcp.org/
