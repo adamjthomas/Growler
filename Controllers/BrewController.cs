@@ -5,14 +5,14 @@ using System.Collections.Generic;
 
 namespace Growler.Controllers
 {
-    // api/brews
+    // api/brew
     [Route("api/{controller}")]
     [ApiController]
-    public class BrewsController : ControllerBase
+    public class BrewController : ControllerBase
     {
         private readonly MockGrowlerRepo _repository = new MockGrowlerRepo();
 
-        // GET: api/brews
+        // GET: api/brew
         [HttpGet]
         public ActionResult<IEnumerable<Brew>> GetAllBrews()
         {
@@ -21,7 +21,7 @@ namespace Growler.Controllers
             return Ok(brewItems);
         }
 
-        // GET: api/brews/{id}
+        // GET: api/brew/{id}
         [HttpGet("{id}")]
         public ActionResult<IEnumerable<Brew>> GetBrewById(int id)
         {
