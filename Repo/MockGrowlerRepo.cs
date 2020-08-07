@@ -102,9 +102,77 @@ namespace Growler.Repo
             return brews;
         }
 
+        public IEnumerable<Category> GetAllCategories()
+        {
+            var categories = new List<Category>
+            {
+                new Category
+                {
+                    Id = "",
+                    Name = "",
+                    Introduction = ""
+                },
+
+                new Category
+                {
+                    Id = "",
+                    Name = "",
+                    Introduction = ""
+                }
+            };
+
+            return categories;
+        }
+
+        public IEnumerable<Style> GetAllStyles()
+        {
+            var styles = new List<Style>
+            {
+                new Style
+                {
+                    Id = "",
+                    Name = "",
+                    OverallImpression = "",
+                    Aroma = "",
+                    Appearance = "",
+                    Flavor = "",
+                    Mouthfeel = "",
+                    Comments = "",
+                    History = "",
+                    CharacteristicIngredients = "",
+                    OG = "",
+                    IBUs = "",
+                    FG = "",
+                    SRM = "",
+                    ABV = ""
+                },
+
+                new Style
+                {
+                    Id = "",
+                    Name = "",
+                    OverallImpression = "",
+                    Aroma = "",
+                    Appearance = "",
+                    Flavor = "",
+                    Mouthfeel = "",
+                    Comments = "",
+                    History = "",
+                    CharacteristicIngredients = "",
+                    OG = "",
+                    IBUs = "",
+                    FG = "",
+                    SRM = "",
+                    ABV = ""
+                }
+            };
+
+            return styles;
+        }
+
         public Brew GetBrewById(int id)
         {
-            Brew brewObj = new Brew
+            Brew brew = new Brew
             {
                 Id = 1,
                 Name = "Adam's Brew",
@@ -134,7 +202,43 @@ namespace Growler.Repo
                 }
             };
 
-            return brewObj;
+            return brew;
+        }
+
+        public Category GetCategoryById(string id)
+        {
+            Category category = new Category
+            {
+                Id = "",
+                Name = "",
+                Introduction = ""
+            };
+
+            return category;
+        }
+
+        public Style GetStyleById(string id)
+        {
+            Style style = new Style
+            {
+                Id = "",
+                Name = "",
+                OverallImpression = "",
+                Aroma = "",
+                Appearance = "",
+                Flavor = "",
+                Mouthfeel = "",
+                Comments = "",
+                History = "",
+                CharacteristicIngredients = "",
+                OG = "",
+                IBUs = "",
+                FG = "",
+                SRM = "",
+                ABV = ""
+            };
+            
+            return style;
         }
     }
 }
