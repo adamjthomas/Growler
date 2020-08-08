@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Growler.Controllers
 {
-    // api/brews
+    // api/style
     [Route("api/{controller}")]
     [ApiController]
     public class StyleController : ControllerBase
