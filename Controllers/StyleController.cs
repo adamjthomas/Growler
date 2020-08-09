@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
 using Growler.Models;
 using Growler.Repo;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace Growler.Controllers
