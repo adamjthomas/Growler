@@ -1,3 +1,4 @@
+using Growler.Repo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +19,8 @@ namespace Growler
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null);
+
+            services.AddScoped<IGrowlerRepo, MockGrowlerRepo>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
