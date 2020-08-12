@@ -10,7 +10,14 @@ namespace Growler.Controllers
     [ApiController]
     public class StyleController : ControllerBase
     {
-        private readonly MockGrowlerRepo _repository = new MockGrowlerRepo();
+        private readonly IGrowlerRepo _repository;
+
+        public StyleController(IGrowlerRepo repository)
+        {
+            _repository = repository;
+        }
+
+        // private readonly MockGrowlerRepo _repository = new MockGrowlerRepo();
 
         // GET: api/style
         [HttpGet]
