@@ -1,7 +1,7 @@
 using Growler.Repo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,7 +21,9 @@ namespace Growler
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<GrowlerContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("GrowlerConnection")));
+            var builder = new SqlConnectionStringBuilder(Configuration.GetConnectionString("GrowlerConnection"));
+            builder.Password = Configuration["DbPassword"];
+            _connection = builder.ConnectionString;
 
             services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null);
 
