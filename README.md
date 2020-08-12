@@ -5,12 +5,11 @@ This API is used to categorize all types of beer outlined in the [Beer Judge Cer
 
 #### Technologies Used:
 - .NET Core 3.1
-- Swagger
 
 ## Getting Started
-- Clone the repo: `git clone https://github.com/adamjthomas/QAF.git`
-- Open Growler.sln in Visual Studio (or open the folder in Visual Studio Code)
-- Restore NuGet Packages (`dotnet restore`)
+- Clone the repo: `git clone https://github.com/adamjthomas/Growler.git`
+- Open `Growler.sln` in Visual Studio (or open the folder in Visual Studio Code)
+- Restore NuGet Packages: `dotnet restore`
 
 ## Bugs
 Found a bug? If your issue is not addressed yet, [please open a new issue](https://github.com/adamjthomas/Growler/issues/new).
@@ -28,7 +27,7 @@ Found a bug? If your issue is not addressed yet, [please open a new issue](https
 
 **Les Jackson**
 - [GitHub](https://github.com/binarythistle)
-- [YouTube](https://www.youtube.com/channel/UCIMRGVXufHT69s1uaHHYJIA)
+- [YouTube](https://youtube.com/channel/UCIMRGVXufHT69s1uaHHYJIA)
 
 ## Disclaimer
 This project is NOT affiliated with, funded, or in any way associated with https://www.bjcp.org/
