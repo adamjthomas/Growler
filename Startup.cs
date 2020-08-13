@@ -1,3 +1,4 @@
+using AutoMapper;
 using Growler.Repo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -5,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace Growler
 {
@@ -22,6 +24,8 @@ namespace Growler
             services.AddDbContext<GrowlerContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("GrowlerConnection")));
 
             services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null);
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IGrowlerRepo, SqlGrowlerRepo>();
         }
