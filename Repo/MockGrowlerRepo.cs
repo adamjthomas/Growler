@@ -205,7 +205,7 @@ namespace Growler.Repo
             return brew;
         }
 
-        public Category GetCategoryById(string id)
+        public Category GetCategoryById(int id)
         {
             Category category = new Category
             {

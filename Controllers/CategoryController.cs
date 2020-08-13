@@ -30,7 +30,7 @@ namespace Growler.Controllers
 
         // GET: api/category/{id}
         [HttpGet("{id}")]
-        public ActionResult<IEnumerable<Category>> GetCategoryById(string id)
+        public ActionResult<IEnumerable<Category>> GetCategoryById(int id)
         {
             var categoryItem = _repository.GetCategoryById(id);
 

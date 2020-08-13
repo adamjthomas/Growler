@@ -9,7 +9,7 @@ namespace Growler.Repo
         IEnumerable<Category> GetAllCategories();
         IEnumerable<Style> GetAllStyles();
         Brew GetBrewById(int id);
-        Category GetCategoryById(string id);
+        Category GetCategoryById(int id);
         Style GetStyleById(string id);
     }
 }
