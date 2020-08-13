@@ -15,7 +15,7 @@ namespace Growler.Repo
                     Name = "Adam's Brew",
                     Category = new Category
                     {
-                        Id = "1",
+                        Id = 1,
                         Name = "Standard American Beer",
                         Introduction = "Introduction"
                     },
@@ -45,7 +45,7 @@ namespace Growler.Repo
                     Name = "Erics Brew",
                     Category = new Category
                     {
-                        Id = "1",
+                        Id = 1,
                         Name = "Standard American Beer",
                         Introduction = "Introduction",
                     },
@@ -74,7 +74,7 @@ namespace Growler.Repo
                     Name = "Levi's Brew",
                     Category = new Category
                     {
-                        Id = "1",
+                        Id = 1,
                         Name = "Standard American Beer",
                         Introduction = "Introduction"
                     },
@@ -108,14 +108,14 @@ namespace Growler.Repo
             {
                 new Category
                 {
-                    Id = "",
+                    Id = 1,
                     Name = "",
                     Introduction = ""
                 },
 
                 new Category
                 {
-                    Id = "",
+                    Id = 1,
                     Name = "",
                     Introduction = ""
                 }
@@ -178,7 +178,7 @@ namespace Growler.Repo
                 Name = "Adam's Brew",
                 Category = new Category
                 {
-                    Id = "1",
+                    Id = 1,
                     Name = "Standard American Beer",
                     Introduction = "Something"
                 },
@@ -209,7 +209,7 @@ namespace Growler.Repo
         {
             Category category = new Category
             {
-                Id = "",
+                Id = 1,
                 Name = "",
                 Introduction = ""
             };
@@ -237,7 +237,7 @@ namespace Growler.Repo
                 SRM = "",
                 ABV = ""
             };
-            
+
             return style;
         }
     }

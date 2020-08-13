@@ -14,4 +14,3 @@ namespace Growler.Models
         public string Introduction { get; set; }
     }
 }
-q
