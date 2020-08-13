@@ -5,7 +5,7 @@ namespace Growler.Models
     public class Category
     {
         [Required]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -14,3 +14,4 @@ namespace Growler.Models
         public string Introduction { get; set; }
     }
 }
+q
