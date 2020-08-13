@@ -23,7 +23,7 @@ namespace Growler
 
             services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null);
 
-            services.AddScoped<IGrowlerRepo, MockGrowlerRepo>();
+            services.AddScoped<IGrowlerRepo, SqlGrowlerRepo>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
