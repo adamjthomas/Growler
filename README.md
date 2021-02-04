@@ -14,12 +14,6 @@ This API is used to categorize all types of beer outlined in the [Beer Judge Cer
 ## Bugs
 Found a bug? If your issue is not addressed yet, [please open a new issue](https://github.com/adamjthomas/Growler/issues/new).
 
-## Author Info
-**Adam J. Thomas**
-- [GitHub](https://github.com/adamjthomas)
-- [KeyBase](https://keybase.io/adamjthomas)
-- [LinkedIn](https://linkedin.com/in/adamjthomas)
-
 ## Big Thank Yous!
 **Eric Perez**
 - [GitHub](https://github.com/epdsn)
